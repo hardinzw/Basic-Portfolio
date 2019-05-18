@@ -1,46 +1,51 @@
 body {background: rgba(82, 76, 76, 0.055);
         position: static;}
 /*Header*/
-.container1 {background: darkred;
+a.name {background: darkred;
         position: absolute;
         left: 200px;
         padding: 20px;
         width: 230px;
         height: 42px;
+        top: 0px;
         text-align: center;
+        text-decoration: none;
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: white;
         font-size: 28px;}
 
-.headerbackground {background: #ffffff;
+header {background: #ffffff;
         border: 2px solid #cccccc;
-        position: static;
+        position: absolute;
         padding: 20px;
-        width: 100%;
-        height: 40px;
-        margin-left: -20px;
-        text-align: right;
+        width: 1925px;
+        height: 41px;
+        top: 0;
+        margin-left: -15px;}
+
+a.links {position: relative;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 20px;
-        color: #777777;}
-
-a {font-family: 'Times New Roman', Times, serif;
-        top: 40%;}
+        color: #777777;
+        text-decoration: none;
+        left: 950px;
+        top: 5px;}
 
 /*Main Content*/
 .main {background: white;
         border: 2px solid #dddddd;
-        position: absolute;
-        margin-top: 50px;
-        left: 200px;
-        padding: 40px;
-        width: 960px;
+        position: relative;
+        top: 138px;
+        left: 186px;
+        padding: 20px;
+        width: 1000px;
         height: 600px;}
+
 /*About Me*/
 h1 {color: darkred;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 28px;
-        top: 5%;}
+        top: 4%;}
 
 /*About link*/
 h2 {float:left;
@@ -71,27 +76,33 @@ h4 {float:left;
 
 /*My Image*/        
 #myimage {float: left;
+        padding: 10px;
+        margin-left: -10px;
+        margin-right: 10px;
         width: 20%;
-        height: 20%; 
-        margin-top: 45px;}
+        height: 35%; 
+        margin-top: 27px;}
 
 /*Quick Bio*/        
 p {font-family: Arial, Helvetica, sans-serif;
         color: #777777;
-        margin-top: 35px;
+        margin-top: 26px;
         line-height: 35px;}
 
+/*Footer*/
 .footerbackground {background: #666666;
-        width: 100%;
-        height: 50px;
-        margin-left: -20px;
-        margin-top: 803px;
-        position: fixed;}
-
+        padding: 20px;
+        width: 1926px;
+        height: 30px;
+        margin-left: -10px;
+        position: relative;
+        margin-top: 220px}
+    
 .footercompliment {background: darkred;
-        width: 100%;
-        height: 15px;
-        margin-left: -20px;
-        margin-top: 790px;
-        position: fixed;}
+        padding: 8px;
+        width: 1950px;
+        height: 0;
+        margin-left: -10px;
+        margin-top: -85px;
+        position: relative;}
 

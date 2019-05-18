@@ -1,34 +1,48 @@
 body {background: rgba(82, 76, 76, 0.055);
-    position: static;}
+    position: static;
+    height: 0px;
+    width: 0px;}
 
-.container1 {background: darkred;
+/*Header*/
+a.name {background: darkred;
     position: absolute;
     left: 200px;
     padding: 20px;
     width: 230px;
     height: 42px;
+    top: 0;
     text-align: center;
+    text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     font-size: 28px;}
 
-.headerbackground {position: static;
-    background: #ffffff;
+header {background: #ffffff;
     border: 2px solid #cccccc;
+    position: absolute;
     padding: 20px;
-    width: 100%;
-    height: 40px;}
+    width: 1930px;
+    height: 40px;
+    top: 0;
+    margin-left: -15px;}
 
-.header-right {float: none;}
+a.links {position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #777777;
+    text-decoration: none;
+    left: 47%;
+    top: 5px;}
 
 .main {background: white;
     border: 2px solid #dddddd;
     position: absolute;
     margin-top: 50px;
+    top: 10%;
     left: 200px;
     padding: 20px;
     width: 960px;
-    height: 700px;}
+    height: 650px;}
 
 h1 {color: darkred;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -46,7 +60,7 @@ h1 {color: darkred;
     padding: 10px;
     width: 221px;
     height: 20px;
-    top: 40%;
+    top: 39%;
     text-align: center;
     font-size: 20px;
     color: white;
@@ -56,8 +70,8 @@ h1 {color: darkred;
 #sportsimage {position: absolute;
     border: 2px solid darkgray;
     width: 238px;
-    height: 178px;
-    top: 21%;
+    height: 167px;
+    top: 20%;
     left: 2%;
     z-index: 1;}
 
@@ -66,7 +80,7 @@ h1 {color: darkred;
     padding: 10px;
     width: 220px;
     height: 20px;
-    top: 40%;
+    top: 39%;
     left: 27%;
     text-align: center;
     font-size: 20px;
@@ -76,8 +90,8 @@ h1 {color: darkred;
 
 #rpgimage {position: absolute;
     width: 240px;
-    height: 181px;
-    top: 21%;
+    height: 170px;
+    top: 20%;
     left: 27%;}
 
 /*Trivia*/
@@ -95,7 +109,7 @@ h1 {color: darkred;
 
 #triviaimage {position: absolute;
     width: 241px;
-    height:173px;
+    height:165px;
     top: 47%;
     left: 2%;}
 
@@ -114,15 +128,15 @@ h1 {color: darkred;
 
 #informationimage {position: absolute;
     width: 241px;
-    height: 173px;
+    height: 165px;
     top: 47%;
     left: 27%;}
-
+/*Strategy Games*/
 .container6 {position: absolute;
     padding: 10px;
     width: 221px;
     height: 20px;
-    top: 91%;
+    top: 92%;
     left: 2%;
     text-align: center;
     font-size: 20px;
@@ -133,20 +147,24 @@ h1 {color: darkred;
 #strategyimage {position: absolute;
     border: 2px solid darkgray;
     width: 238px;
-    height: 175px;
-    top: 72%;
+    height: 165px;
+    top: 73%;
     left: 2%}
 
+/*Footer*/
 .footerbackground {background: #666666;
-    width: 100%;
-    height: 50px;
-    margin-left: 0px;
-    margin-top: 803px;
-    position: fixed;}
+    padding: 30px;
+    width: 1906px;
+    height: 10px;
+    margin-left: -10px;
+    position: relative;
+    margin-top: 870px;
+    bottom: -20px;}
 
-.footercompliment {background: #4aaaa5;
-    width: 100%;
-    height: 15px;
-    margin-left: 0px;
-    margin-top: 790px;
-    position: fixed;}
+.footercompliment {background: darkred;
+    padding: 8px;
+    width: 1950px;
+    height: 0;
+    margin-left: -10px;
+    bottom: 65px;
+    position: relative;}
